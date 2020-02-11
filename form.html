@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
- <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- external css  -->
-<link rel="stylesheet" href="form.css">
-<!-- fa faicon  -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- external css  -->
+    <link rel="stylesheet" href="form.css">
+    <!-- fa faicon  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="box"align="center">
+            <div class="col-md-3">
+                <div class="box" align="center">
                     <img src="Lady-Gaga.jpg" class="img-responsive rounded-circle" height="120" width="120px">
                     <p>Christine Stewart</p>
                     <p>7A Student/Month</p>
@@ -34,10 +36,13 @@
                     <p>demo.example@web.com</p>
                     <p>Phone</p>
                     <p>+91 0000000000<p>
-                    <p>Adress</p>
-                    <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238132.63727541058!2d72.68220805203599!3d21.159462704479317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1581337626554!5m2!1sen!2sin" width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
+                            <p>Adress</p>
+                            <div class="map-responsive">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238132.63727541058!2d72.68220805203599!3d21.159462704479317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1581337626554!5m2!1sen!2sin"
+                                    width="100%" height="100px" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
                 </div>
             </div>
             <div class="col-md-8">
@@ -54,7 +59,8 @@
                             <input type="text" class="form-control" id="usr" placeholder="Email id">
                         </div>
                     </div>
-                </div> <!--end first row-->
+                </div>
+                <!--end first row-->
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
@@ -74,61 +80,75 @@
                             <input type="text" class="form-control" id="usr" placeholder="Auctor ornare">
                         </div>
                     </div>
-                </div> <!--end second row-->
+                </div>
+                <!--end second row-->
                 <div class="box1">
                     <p>Address:</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <form >
-                        <label for="usr">Select Country</label>
-                        <select name="cars" class="custom-select">
-                          <option selected>Select Country</option>
-                          <option value="">india</option>
-                          <option value="">usa</option>
-                          <option value="">canada</option>
-                        </select>
-                      </form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form>
+                                <label for="usr">Select Country</label>
+                                <select name="cars" class="custom-select">
+                                    <option selected>Select Country</option>
+                                    <option value="">india</option>
+                                    <option value="">usa</option>
+                                    <option value="">canada</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <label for="usr">Select city</label>
+                                <select name="cars" class="custom-select">
+                                    <option selected>Select city</option>
+                                    <option value="">surat</option>
+                                    <option value="fiat">ahemdabar</option>
+                                    <option value="audi">vadodara</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <label for="usr">Select state</label>
+                                <select name="cars" class="custom-select">
+                                    <option selected>Select state</option>
+                                    <option value="">Gujarat</option>
+                                    <option value="fiat">Maharastra</option>
+                                    <option value="audi">BanGal</option>
+                                </select>
+                            </form>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <form >
-                         <label for="usr">Select city</label>
-                        <select name="cars" class="custom-select">
-                          <option selected>Select city</option>
-                          <option value="">surat</option>
-                          <option value="fiat">ahemdabar</option>
-                          <option value="audi">vadodara</option>
-                        </select>
-                      </form>
+                    <!--enfd third row-->
+                    <div class="form-group">
+                        <label for="usr">Adress Line1</label>
+                        <input type="text" class="form-control" id="usr" placeholder="Email id">
                     </div>
-                    <div class="col-md-4">
-                        <form >
-                        <label for="usr">Select state</label>
-                        <select name="cars" class="custom-select">
-                          <option selected>Select state</option>
-                          <option value="">Gujarat</option>
-                          <option value="fiat">Maharastra</option>
-                          <option value="audi">BanGal</option>
-                        </select>
-                      </form>
+                    <div class="form-group">
+                        <label for="usr">Adress Line2</label>
+                        <input type="text" class="form-control" id="usr" placeholder="Email id">
                     </div>
-                </div> <!--enfd third row-->
-                <div class="form-group">
-                    <label for="usr">Adress Line1</label>
-                    <input type="text" class="form-control" id="usr" placeholder="Email id">
                 </div>
-                <div class="form-group">
-                    <label for="usr">Adress Line2</label>
-                    <input type="text" class="form-control" id="usr" placeholder="Email id">
-                </div>
-                </div><!--end box-->
+                <!--end box-->
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
-<div class="container">
-    <div class="col-md-4">
-        <button class="btn btn-lg">  Home <i class="fa fa-home"></i></button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" class="btn btn-outline-secondary btn-block">Studen Profile   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-outline-secondary btn-block"> <i class="fa fa-lock" aria-hidden="true"></i>   Change Password</button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-success btn-block">Update Profile</button>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
     </div>
-    
-</div>
 </body>
+
 </html>

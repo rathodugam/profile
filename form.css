@@ -4,20 +4,13 @@
     padding: 2em;
     align-items: center;
 }
-
+.row
+{
+    margin-top: 1rem;
+}
 .box1
 {
     padding: 3em;
     border: solid rgb(196, 201, 198);
-    margin-top: 90px;
+    margin-top: 56px;
 }
-.btn {
-    background-color: rgb(87, 87, 87);
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 1em;
-  }
-  
